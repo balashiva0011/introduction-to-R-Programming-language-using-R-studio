@@ -1,0 +1,118 @@
+---
+title: "create own  Data Frame"
+output: html_document
+---
+## Background for this activity
+This activity is focused on creating and using data frames in `R`. A data frame is a collection of columns containing data, similar to a spreadsheet or SQL table. Data frames are one of the basic tools you will use to work with data in `R`. And you can create data frames from different data sources.  
+
+Wherever data comes from, you will almost always want to store it in a data frame object to work with it. Now,you can start creating and exploring data frames with the code chunks in the RMD space. To interact with thecode chunk, click the green arrow in the top-right corner of the chunk. The executed code will appear in theRMD space and your console.
+
+## Step 1: Load packages
+```{r}
+library(tidyverse)
+```
+## Step 2: Create data frame
+
+Sometimes you will need to generate a data frame directly in R. There are a number of ways to do this; one of the most common is to create individual vectors of data and then combine them into a data frame using the data.frame() function.
+Here’s how this works. First, create a vector of names by inserting four names into this code block between the quotation marks and then run it :
+
+```{r}
+names <- c("rama","shiva","raju","ravi","bala","jhonson","david","kavien")
+```
+Then create a vector of ages by adding four ages separated by commas to the code chunk below. Make sure you are inputting numeric values for the ages or you might get an error.
+
+```{r}
+age <- c(23,27,21,33,32,27,27,28)
+```
+Then create a vector of occupational_Status by adding four ages separated by commas to the code chunk below. Make sure you are inputting numeric values for the ages or you might get an error.
+```{r}
+occupationa_lStatus <- c("financial manager","cheif executive","General and Operations Managers","Sales Managers","cheif executive","Industrial Production Managers","financial manager","General and Operations Managers")
+```
+With these two vectors, you can create a new data frame called people :
+```{r}
+people <- data.frame(names, age,occupationa_lStatus)
+```
+```{r}
+people 
+```
+## Step 3: inspect the data frame
+Now that you have this data frame, you can use some different functions to inspect it. One common function you can use to preview the data is the head() function, which returns the columns and the first several rows of data. You can check out how the head() function works by running the chunk below :
+
+```{r}
+head(people)
+```
+In addition to head(), there are a number of other useful functions to summarize or preview your data. For example, the str() and glimpse() functions will both provide summaries of each column in your data arranged horizontally. You can check out these two functions in action by running the code chunks below :
+
+```{r}
+glimpse(people)
+```
+
+
+```{r}
+str(people)
+```
+You can also use colnames() to get a list the column names in your data set. Run the code chunk below to check out this function:
+
+```{r}
+colnames(people)
+```
+Now that you have a data frame, you can work with it using all of the tools in R. For example, you could use mutate() if you wanted to create a new variable that would capture each person’s age in twenty years. The code chunk below creates that new variable :
+
+```{r}
+mutate(people, age_in_20 = age + 20)
+```
+
+## compare age and occupations
+```{r}
+ggplot(data=people,aes(x=age,y=occupationa_lStatus))+ geom_point(color=
+"purple"
+)
+```
+```{r}
+ggplot(data=people,aes(x=age,y=occupationa_lStatus))+ geom_point(aes(color="purple",shape=names))
+```
+```{r}
+ggplot(data=people,aes(x=age,y=occupationa_lStatus))+ geom_point(aes(color="occupationa_lStatus")) + facet_wrap(~occupationa_lStatus)
+```
+```{r}
+ggplot(data = people) + geom_bar(mapping = aes(x = age, fill = occupationa_lStatus))
+```
+```{r}
+ggplot(data = people) + geom_bar(mapping = aes(x = age)) + facet_wrap(~occupationa_lStatus)
+```
+```{r}
+ggplot(data = people, aes(x = names, y =age , col = occupationa_lStatus)) +
+  geom_point() +
+  labs(title = "names vs age",
+       x = "names",
+       y = "age")
+```
+```{r}
+
+ggplot(data = people, aes(x = age, y = occupationa_lStatus)) +
+  geom_point() +
+  stat_smooth(method = lm, col = "red") +
+  labs(title = "age vs occupationa_lStatus")
+```
+```{r}
+hist_plot_mpg <- ggplot(people, aes(x = age)) +
+  geom_histogram(binwidth = 2, fill = "blue", color = "white") +
+  labs(title = "Histogram: Miles per Gallon", x = "age", y = "occupationa_lStatus")
+ 
+```
+
+```{r}
+hist_plot_mpg
+```
+```{r}
+ggplot(data = people, aes(x = age, y = occupationa_lStatus)) +
+  geom_point() +
+  facet_grid(. ~ names) +
+  theme(plot.background = element_rect(fill = "blue", colour = "gray")) +
+  labs(title = "Miles per Gallon vs occupationa_lStatus")
+```
+
+
+## Activity Wrap Up
+
+we can practice these skills by modifying the code chunks in the rmd file, or use this code as starting point in your own project console. Now that your stakeholder has had a chance to review these splots,they are interested in adding annotations they can use to explain the data in a presentation.
