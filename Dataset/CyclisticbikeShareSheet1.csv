@@ -1,0 +1,150 @@
+id,start time,stop time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear,rider_length,weekdays
+1,12/31/2016 20:01:45,12/31/2016 20:08:01,5180,376,60,Dayton St & North Ave,118,Sedgwick St & North Ave,Subscriber,Male,1971,12:06:16 AM,Saturday
+2,12/31/2016 20:01:56,12/31/2016 20:29:11,4959,1635,99,Lake Shore Dr & Ohio St,58,Marshfield Ave & Cortland St,Subscriber,Male,1986,12:27:15 AM,Saturday
+3,12/31/2016 20:02:03,12/31/2016 20:13:36,5780,693,220,Hampden Ct & Diversey Pkwy,225,Halsted St & Dickens Ave,Subscriber,Female,1991,12:11:33 AM,Saturday
+4,12/31/2016 20:02:21,12/31/2016 20:14:12,4049,711,510,Spaulding Ave & Division St,123,California Ave & Milwaukee Ave,Subscriber,Male,1987,12:11:51 AM,Saturday
+5,12/31/2016 20:02:21,12/31/2016 20:14:12,3565,711,510,Spaulding Ave & Division St,123,California Ave & Milwaukee Ave,Subscriber,Male,1986,12:11:51 AM,Saturday
+6,12/31/2016 20:02:23,12/31/2016 20:04:29,747,126,44,State St & Randolph St,194,Wabash Ave & Wacker Pl,Subscriber,Male,1987,12:02:06 AM,Saturday
+7,12/31/2016 20:03:57,12/31/2016 20:14:35,3237,638,418,Ellis Ave & 53rd St,427,Cottage Grove Ave & 63rd St,Subscriber,Male,1991,12:10:38 AM,Saturday
+8,12/31/2016 20:04:11,12/31/2016 20:06:12,5829,121,349,Halsted St & Wrightwood Ave,302,Sheffield Ave & Wrightwood Ave,Subscriber,Male,1989,12:02:01 AM,Saturday
+9,12/31/2016 20:05:24,12/31/2016 20:20:43,2113,919,134,Peoria St & Jackson Blvd,30,Ashland Ave & Augusta Blvd,Subscriber,Female,1992,12:15:19 AM,Saturday
+10,12/31/2016 20:05:35,12/31/2016 20:21:37,4240,962,502,California Ave & Altgeld St,183,Damen Ave & Augusta Blvd,Customer,Male,1988,12:16:02 AM,Saturday
+11,12/31/2016 20:06:18,12/31/2016 20:11:27,1898,309,297,Paulina St & Montrose Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Female,1985,12:05:09 AM,Saturday
+12,12/31/2016 20:06:35,12/31/2016 20:12:13,973,338,297,Paulina St & Montrose Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1986,12:05:38 AM,Saturday
+13,12/31/2016 20:06:45,12/31/2016 20:09:49,1504,184,240,Sheridan Rd & Irving Park Rd,165,Clark St & Grace St,Subscriber,Male,1954,12:03:04 AM,Saturday
+14,12/31/2016 20:08:08,12/31/2016 20:16:10,4869,482,110,Dearborn St & Erie St,182,Wells St & Elm St,Subscriber,Male,1988,12:08:02 AM,Saturday
+15,12/31/2016 20:09:11,12/31/2016 20:16:02,392,411,18,Wacker Dr & Washington St,112,Green St & Randolph St,Subscriber,Male,1966,12:06:51 AM,Saturday
+16,12/31/2016 20:10:38,12/31/2016 20:18:09,5838,451,306,Sheridan Rd & Buena Ave,299,Halsted St & Roscoe St,Subscriber,Male,1983,12:07:31 AM,Saturday
+17,12/31/2016 20:13:50,12/31/2016 20:17:04,1174,194,138,Clybourn Ave & Division St,27,Larrabee St & North Ave,Subscriber,Male,1996,12:03:14 AM,Saturday
+18,12/31/2016 20:14:47,12/31/2016 20:24:09,3827,562,94,Clark St & Armitage Ave,327,Sheffield Ave & Webster Ave,Subscriber,Male,1982,12:09:22 AM,Saturday
+19,12/31/2016 20:20:42,12/31/2016 20:56:49,3774,2167,145,Mies van der Rohe Way & Chestnut St,25,Michigan Ave & Pearson St,Subscriber,Male,1997,12:36:07 AM,Saturday
+20,12/31/2016 20:21:19,12/31/2016 20:48:16,4284,1617,93,Sheffield Ave & Willow St,93,Sheffield Ave & Willow St,Customer,Male,1983,12:26:57 AM,Saturday
+21,12/31/2016 20:22:21,12/31/2016 20:30:37,3431,496,226,Racine Ave & Belmont Ave,327,Sheffield Ave & Webster Ave,Subscriber,Male,1983,12:08:16 AM,Saturday
+22,12/31/2016 20:22:22,12/31/2016 20:41:39,4240,1157,183,Damen Ave & Augusta Blvd,346,Ada St & Washington Blvd,Customer,Male,1975,12:19:17 AM,Saturday
+23,12/31/2016 20:26:58,12/31/2016 20:45:06,5874,1088,331,Halsted St & Blackhawk St (*),21,Aberdeen St & Jackson Blvd,Subscriber,Male,1980,12:18:08 AM,Saturday
+24,12/31/2016 20:27:29,12/31/2016 20:32:40,5738,311,43,Michigan Ave & Washington St,174,Canal St & Madison St,Subscriber,Male,1986,12:05:11 AM,Saturday
+25,12/31/2016 20:29:03,12/31/2016 20:31:40,5063,157,175,Wells St & Polk St,50,Clark St & Congress Pkwy,Subscriber,Female,1990,12:02:37 AM,Saturday
+26,12/31/2016 20:29:25,12/31/2016 20:36:30,1292,425,38,Clark St & Lake St,337,Clark St & Chicago Ave,Subscriber,Male,1977,12:07:05 AM,Saturday
+27,12/31/2016 20:29:29,12/31/2016 20:38:05,4959,516,58,Marshfield Ave & Cortland St,222,Milwaukee Ave & Rockwell St,Subscriber,Male,1980,12:08:36 AM,Saturday
+28,12/31/2016 20:29:30,12/31/2016 20:40:01,5175,631,214,Damen Ave & Grand Ave,378,California Ave & Lake St,Subscriber,Female,1994,12:10:31 AM,Saturday
+29,12/31/2016 20:29:30,12/31/2016 20:50:16,4398,1246,488,Pulaski Rd & Eddy St,276,California Ave & North Ave,Subscriber,Male,1984,12:20:46 AM,Saturday
+30,12/31/2016 20:29:33,12/31/2016 20:36:57,4036,444,38,Clark St & Lake St,337,Clark St & Chicago Ave,Subscriber,Male,1976,12:07:24 AM,Saturday
+31,12/31/2016 20:31:19,12/31/2016 20:46:03,4522,884,117,Wilton Ave & Belmont Ave,325,Clark St & Winnemac Ave,Subscriber,Male,1986,12:14:44 AM,Saturday
+32,12/31/2016 20:31:51,12/31/2016 20:34:48,207,177,346,Ada St & Washington Blvd,233,Sangamon St & Washington Blvd (*),Subscriber,Male,1990,12:02:57 AM,Saturday
+33,12/31/2016 20:32:05,12/31/2016 20:36:56,4680,291,286,Franklin St & Quincy St,107,Desplaines St & Jackson Blvd,Subscriber,Male,1988,12:04:51 AM,Saturday
+34,12/31/2016 20:36:48,12/31/2016 20:39:45,1504,177,165,Clark St & Grace St,114,Sheffield Ave & Waveland Ave,Subscriber,Male,1962,12:02:57 AM,Saturday
+35,12/31/2016 20:36:52,12/31/2016 20:42:08,155,316,458,Broadway & Thorndale Ave,451,Sheridan Rd & Loyola Ave,Subscriber,Male,1973,12:05:16 AM,Saturday
+36,12/31/2016 20:40:44,12/31/2016 20:56:05,2574,921,29,Noble St & Milwaukee Ave,46,Wells St & Walton St,Subscriber,Female,1985,12:15:21 AM,Saturday
+37,12/31/2016 20:40:53,12/31/2016 20:52:09,2678,676,298,Lincoln Ave & Belle Plaine Ave,153,Southport Ave & Wellington Ave,Subscriber,Male,1985,12:11:16 AM,Saturday
+38,12/31/2016 20:41:11,12/31/2016 20:55:44,3806,873,211,St. Clair St & Erie St,233,Sangamon St & Washington Blvd (*),Subscriber,Male,1989,12:14:33 AM,Saturday
+39,12/31/2016 20:42:01,12/31/2016 20:51:42,3347,581,156,Clark St & Wellington Ave,225,Halsted St & Dickens Ave,Subscriber,Male,1991,12:09:41 AM,Saturday
+40,12/31/2016 20:42:48,12/31/2016 20:54:16,5015,688,333,Ashland Ave & Blackhawk St,138,Clybourn Ave & Division St,Subscriber,Male,1988,12:11:28 AM,Saturday
+41,12/31/2016 20:44:38,12/31/2016 20:48:33,5818,235,74,Kingsbury St & Erie St,181,LaSalle St & Illinois St,Subscriber,Female,1984,12:03:55 AM,Saturday
+42,12/31/2016 20:47:46,12/31/2016 20:53:41,4442,355,463,Clark St & Berwyn Ave,295,Broadway & Argyle St,Subscriber,Female,1992,12:05:55 AM,Saturday
+43,12/31/2016 20:48:52,12/31/2016 20:58:12,1574,560,274,Racine Ave & 15th St,19,Loomis St & Taylor St (*),Customer,Male,1988,12:09:20 AM,Saturday
+44,12/31/2016 20:49:25,12/31/2016 20:53:53,201,268,112,Green St & Randolph St,18,Wacker Dr & Washington St,Subscriber,Male,1976,12:04:28 AM,Saturday
+45,12/31/2016 20:51:25,12/31/2016 20:58:35,4254,430,274,Racine Ave & 15th St,19,Loomis St & Taylor St (*),Customer,Female,1968,12:07:10 AM,Saturday
+46,12/31/2016 20:51:31,12/31/2016 20:58:16,1717,405,274,Racine Ave & 15th St,19,Loomis St & Taylor St (*),Customer,Male,1964,12:06:45 AM,Saturday
+47,12/31/2016 20:51:38,12/31/2016 20:58:27,1421,409,274,Racine Ave & 15th St,19,Loomis St & Taylor St (*),Customer,Male,1994,12:06:49 AM,Saturday
+48,12/31/2016 20:51:41,12/31/2016 20:55:54,4445,253,261,Hermitage Ave & Polk St,275,Ashland Ave & 13th St,Subscriber,Female,1984,12:04:13 AM,Saturday
+49,12/31/2016 20:51:55,12/31/2016 20:59:28,2577,453,244,Ravenswood Ave & Irving Park Rd,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1988,12:07:33 AM,Saturday
+50,12/31/2016 20:52:28,12/31/2016 23:06:55,1831,8067,274,Racine Ave & 15th St,19,Loomis St & Taylor St (*),Customer,Male,1990,2:14:27 AM,Saturday
+51,12/31/2016 20:53:16,12/31/2016 21:01:56,1072,520,53,Wells St & Huron St,26,McClurg Ct & Illinois St,Subscriber,Male,1984,12:08:40 AM,Saturday
+52,12/31/2016 20:55:33,12/31/2016 20:59:31,84,238,463,Clark St & Berwyn Ave,294,Broadway & Berwyn Ave,Subscriber,Male,1988,12:03:58 AM,Saturday
+53,12/31/2016 20:58:04,12/31/2016 21:04:19,3794,375,141,Clark St & Lincoln Ave,180,Ritchie Ct & Banks St,Subscriber,Male,1971,12:06:15 AM,Saturday
+54,12/31/2016 20:58:11,12/31/2016 21:04:18,2848,367,141,Clark St & Lincoln Ave,180,Ritchie Ct & Banks St,Subscriber,Male,1972,12:06:07 AM,Saturday
+55,12/31/2016 20:59:54,12/31/2016 21:10:19,2215,625,320,Loomis St & Lexington St,342,Wolcott Ave & Polk St,Subscriber,Male,1984,12:10:25 AM,Saturday
+56,12/31/2016 21:03:28,12/31/2016 21:10:28,4309,420,275,Ashland Ave & 13th St,129,Blue Island Ave & 18th St,Subscriber,Male,1965,12:07:00 AM,Saturday
+57,12/31/2016 21:03:31,12/31/2016 21:09:36,3743,365,112,Green St & Randolph St,186,Ogden Ave & Race Ave,Subscriber,Female,1990,12:06:05 AM,Saturday
+58,12/31/2016 21:04:10,12/31/2016 21:16:39,1701,749,118,Sedgwick St & North Ave,300,Broadway & Barry Ave,Subscriber,Male,1985,12:12:29 AM,Saturday
+59,12/31/2016 21:05:24,12/31/2016 21:13:16,1795,472,126,Clark St & North Ave,177,Theater on the Lake,Subscriber,Male,1983,12:07:52 AM,Saturday
+60,12/31/2016 21:05:57,12/31/2016 21:13:00,2042,423,294,Broadway & Berwyn Ave,464,Damen Ave & Foster Ave,Subscriber,Male,1982,12:07:03 AM,Saturday
+61,12/31/2016 21:10:17,12/31/2016 21:17:34,1970,437,17,Wood St & Division St,219,Damen Ave & Cortland St,Subscriber,Male,1976,12:07:17 AM,Saturday
+62,12/31/2016 21:12:54,12/31/2016 21:24:08,2884,674,111,Sedgwick St & Huron St,26,McClurg Ct & Illinois St,Subscriber,Male,1978,12:11:14 AM,Saturday
+63,12/31/2016 21:13:24,12/31/2016 21:38:49,1795,1525,177,Theater on the Lake,463,Clark St & Berwyn Ave,Subscriber,Male,1989,12:25:25 AM,Saturday
+64,12/31/2016 21:13:45,12/31/2016 21:23:51,3937,606,349,Halsted St & Wrightwood Ave,256,Broadway & Sheridan Rd,Subscriber,Male,1977,12:10:06 AM,Saturday
+65,12/31/2016 21:15:02,12/31/2016 21:39:41,3335,1479,92,Carpenter St & Huron St,299,Halsted St & Roscoe St,Subscriber,Male,1991,12:24:39 AM,Saturday
+66,12/31/2016 21:16:01,12/31/2016 21:21:52,4656,351,158,Milwaukee Ave & Wabansia Ave,183,Damen Ave & Augusta Blvd,Subscriber,Male,1988,12:05:51 AM,Saturday
+67,12/31/2016 21:21:17,12/31/2016 21:34:13,815,776,467,Western Ave & Lunt Ave,447,Glenwood Ave & Morse Ave,Subscriber,Male,1986,12:12:56 AM,Saturday
+68,12/31/2016 21:23:09,12/31/2016 22:09:45,2544,2796,145,Mies van der Rohe Way & Chestnut St,260,Kedzie Ave & Milwaukee Ave,Subscriber,Male,1984,12:46:36 AM,Saturday
+69,12/31/2016 21:25:43,12/31/2016 21:30:36,535,293,264,Stetson Ave & South Water St,81,Daley Center Plaza,Subscriber,Male,1984,12:04:53 AM,Saturday
+70,12/31/2016 21:29:54,12/31/2016 21:37:15,155,441,451,Sheridan Rd & Loyola Ave,525,Glenwood Ave & Touhy Ave,Subscriber,Male,1989,12:07:21 AM,Saturday
+71,12/31/2016 21:30:30,12/31/2016 21:50:22,5664,1192,61,Wood St & Milwaukee Ave,127,Lincoln Ave & Fullerton Ave,Subscriber,Male,1988,12:19:52 AM,Saturday
+72,12/31/2016 21:30:37,12/31/2016 21:37:48,5565,431,434,Ogden Ave & Roosevelt Rd,205,Paulina St & 18th St,Subscriber,Male,1976,12:07:11 AM,Saturday
+73,12/31/2016 21:30:46,12/31/2016 21:40:42,1231,596,24,Fairbanks Ct & Grand Ave,172,Rush St & Cedar St,Subscriber,Female,1987,12:09:56 AM,Saturday
+74,12/31/2016 21:38:05,12/31/2016 21:42:33,2042,268,464,Damen Ave & Foster Ave,325,Clark St & Winnemac Ave,Subscriber,Female,1985,12:04:28 AM,Saturday
+75,12/31/2016 21:39:07,12/31/2016 21:54:10,1781,903,67,Sheffield Ave & Fullerton Ave,332,Halsted St & Diversey Pkwy,Subscriber,Male,1984,12:15:03 AM,Saturday
+76,12/31/2016 21:39:07,12/31/2016 22:12:27,1795,2000,463,Clark St & Berwyn Ave,463,Clark St & Berwyn Ave,Subscriber,Male,1964,12:33:20 AM,Saturday
+77,12/31/2016 21:43:13,12/31/2016 21:47:23,4391,250,290,Kedzie Ave & Palmer Ct,260,Kedzie Ave & Milwaukee Ave,Subscriber,Female,1960,12:04:10 AM,Saturday
+78,12/31/2016 21:44:27,12/31/2016 21:49:28,5565,301,205,Paulina St & 18th St,15,Racine Ave & 18th St,Subscriber,Male,1981,12:05:01 AM,Saturday
+79,12/31/2016 21:44:36,12/31/2016 21:48:16,2363,220,205,Paulina St & 18th St,129,Blue Island Ave & 18th St,Subscriber,Male,1981,12:03:40 AM,Saturday
+80,12/31/2016 21:45:43,12/31/2016 21:49:02,2211,199,210,Ashland Ave & Division St,30,Ashland Ave & Augusta Blvd,Subscriber,Male,1966,12:03:19 AM,Saturday
+81,12/31/2016 21:46:54,12/31/2016 21:54:08,5616,434,60,Dayton St & North Ave,364,Larrabee St & Oak St,Subscriber,Male,1992,12:07:14 AM,Saturday
+82,12/31/2016 21:47:43,12/31/2016 22:19:18,1984,1895,186,Ogden Ave & Race Ave,260,Kedzie Ave & Milwaukee Ave,Customer,Male,1986,12:31:35 AM,Saturday
+83,12/31/2016 21:47:54,12/31/2016 22:03:01,3485,907,41,Federal St & Polk St,132,Wentworth Ave & 24th St,Subscriber,Male,1994,12:15:07 AM,Saturday
+84,12/31/2016 21:47:59,12/31/2016 22:04:19,2215,980,342,Wolcott Ave & Polk St,50,Clark St & Congress Pkwy,Subscriber,Male,1990,12:16:20 AM,Saturday
+85,12/31/2016 21:48:13,12/31/2016 21:57:31,5035,558,279,Halsted St & 35th St (*),411,Halsted St & 47th Pl,Subscriber,Male,1993,12:09:18 AM,Saturday
+86,12/31/2016 21:49:11,12/31/2016 21:57:33,366,502,127,Lincoln Ave & Fullerton Ave,299,Halsted St & Roscoe St,Subscriber,Female,1960,12:08:22 AM,Saturday
+87,12/31/2016 21:54:21,12/31/2016 22:12:35,1554,1094,482,Campbell Ave & Montrose Ave,260,Kedzie Ave & Milwaukee Ave,Subscriber,Female,1985,12:18:14 AM,Saturday
+88,12/31/2016 21:55:25,12/31/2016 22:05:26,5522,601,49,Dearborn St & Monroe St,26,McClurg Ct & Illinois St,Subscriber,Male,1985,12:10:01 AM,Saturday
+89,12/31/2016 21:56:08,12/31/2016 22:03:04,3439,416,299,Halsted St & Roscoe St,332,Halsted St & Diversey Pkwy,Subscriber,Female,1995,12:06:56 AM,Saturday
+90,12/31/2016 21:58:45,12/31/2016 22:18:25,5224,1180,55,Halsted St & Roosevelt Rd,434,Ogden Ave & Roosevelt Rd,Subscriber,Male,1990,12:19:40 AM,Saturday
+91,12/31/2016 22:05:00,12/31/2016 22:17:54,349,774,243,Lincoln Ave & Leavitt St,306,Sheridan Rd & Buena Ave,Subscriber,Female,1989,12:12:54 AM,Saturday
+92,12/31/2016 22:05:51,12/31/2016 22:08:48,1092,177,305,Western Ave & Division St,130,Damen Ave & Division St,Subscriber,Male,1990,12:02:57 AM,Saturday
+93,12/31/2016 22:07:59,01-01-2017 00:26,4460,8319,76,Lake Shore Dr & Monroe St,76,Lake Shore Dr & Monroe St,Customer,Male,1988,2:18:01 AM,Saturday
+94,12/31/2016 22:08:18,01-01-2017 00:26,2956,8300,76,Lake Shore Dr & Monroe St,76,Lake Shore Dr & Monroe St,Customer,Female,1985,2:17:42 AM,Saturday
+95,12/31/2016 22:16:58,12/31/2016 22:20:18,9,200,67,Sheffield Ave & Fullerton Ave,188,Greenview Ave & Fullerton Ave,Subscriber,Male,1961,12:03:20 AM,Saturday
+96,12/31/2016 22:24:10,12/31/2016 22:31:58,935,468,418,Ellis Ave & 53rd St,247,Shore Dr & 55th St,Subscriber,Male,1984,12:07:48 AM,Saturday
+97,12/31/2016 22:24:14,12/31/2016 22:32:11,4920,477,299,Halsted St & Roscoe St,127,Lincoln Ave & Fullerton Ave,Subscriber,Male,1989,12:07:57 AM,Saturday
+98,12/31/2016 22:28:42,12/31/2016 22:38:28,3560,586,175,Wells St & Polk St,96,Desplaines St & Randolph St,Subscriber,Male,1985,12:09:46 AM,Saturday
+99,12/31/2016 22:28:42,12/31/2016 22:38:16,692,574,175,Wells St & Polk St,96,Desplaines St & Randolph St,Subscriber,Male,1976,12:09:34 AM,Saturday
+100,12/31/2016 22:30:19,12/31/2016 22:38:41,2890,502,264,Stetson Ave & South Water St,36,Franklin St & Jackson Blvd,Subscriber,Male,1978,12:08:22 AM,Saturday
+101,12/31/2016 22:30:36,12/31/2016 22:38:08,3829,452,142,McClurg Ct & Erie St,176,Clark St & Elm St,Subscriber,Female,1979,12:07:32 AM,Saturday
+102,12/31/2016 22:30:40,12/31/2016 22:38:31,1500,471,340,Clark St & Wrightwood Ave,288,Larrabee St & Armitage Ave,Subscriber,Male,1986,12:07:51 AM,Saturday
+103,12/31/2016 22:30:40,12/31/2016 22:38:14,3581,454,340,Clark St & Wrightwood Ave,288,Larrabee St & Armitage Ave,Subscriber,Female,1958,12:07:34 AM,Saturday
+104,12/31/2016 22:31:42,12/31/2016 23:03:04,2757,1882,52,Michigan Ave & Lake St,35,Streeter Dr & Grand Ave,Customer,Female,1985,12:31:22 AM,Saturday
+105,12/31/2016 22:32:07,12/31/2016 23:02:38,534,1831,52,Michigan Ave & Lake St,35,Streeter Dr & Grand Ave,Customer,Male,1996,12:30:31 AM,Saturday
+106,12/31/2016 22:32:16,12/31/2016 22:45:41,5497,805,308,Seeley Ave & Roscoe St,116,Western Ave & Winnebago Ave,Subscriber,Female,1990,12:13:25 AM,Saturday
+107,12/31/2016 22:32:38,12/31/2016 22:40:12,5272,454,144,Larrabee St & Webster Ave,13,Wilton Ave & Diversey Pkwy,Subscriber,Male,1985,12:07:34 AM,Saturday
+108,12/31/2016 22:35:19,12/31/2016 22:49:13,3676,834,120,Wentworth Ave & Archer Ave,129,Blue Island Ave & 18th St,Subscriber,Male,1991,12:13:54 AM,Saturday
+109,12/31/2016 22:36:58,12/31/2016 22:43:01,5199,363,143,Sedgwick St & Webster Ave,138,Clybourn Ave & Division St,Subscriber,Male,1986,12:06:03 AM,Saturday
+110,12/31/2016 22:37:37,12/31/2016 22:41:23,5565,226,15,Racine Ave & 18th St,205,Paulina St & 18th St,Subscriber,Male,1965,12:03:46 AM,Saturday
+111,12/31/2016 22:38:12,12/31/2016 23:00:03,2993,1311,26,McClurg Ct & Illinois St,86,Eckhart Park,Subscriber,Male,1994,12:21:51 AM,Saturday
+112,12/31/2016 22:43:13,12/31/2016 22:45:48,2151,155,72,Wabash Ave & 16th St,273,Michigan Ave & 18th St,Subscriber,Male,1970,12:02:35 AM,Saturday
+113,12/31/2016 22:43:23,12/31/2016 22:49:57,5761,394,60,Dayton St & North Ave,365,Halsted St & North Branch St,Subscriber,Male,1990,12:06:34 AM,Saturday
+114,12/31/2016 22:43:24,12/31/2016 22:45:48,4134,144,72,Wabash Ave & 16th St,273,Michigan Ave & 18th St,Subscriber,Male,1965,12:02:24 AM,Saturday
+115,12/31/2016 22:53:34,12/31/2016 23:12:36,4242,1142,22,May St & Taylor St,274,Racine Ave & 15th St,Customer,Male,1986,12:19:02 AM,Saturday
+116,12/31/2016 22:54:39,12/31/2016 23:10:45,5251,966,22,May St & Taylor St,137,Morgan Ave & 14th Pl,Customer,Male,1991,12:16:06 AM,Saturday
+117,12/31/2016 22:54:52,12/31/2016 23:10:22,1531,930,22,May St & Taylor St,137,Morgan Ave & 14th Pl,Customer,Male,1991,12:15:30 AM,Saturday
+118,12/31/2016 22:55:07,12/31/2016 23:12:46,2843,1059,22,May St & Taylor St,274,Racine Ave & 15th St,Customer,Male,1986,12:17:39 AM,Saturday
+119,12/31/2016 22:57:53,12/31/2016 23:02:48,5672,295,134,Peoria St & Jackson Blvd,88,May St & Randolph St,Subscriber,Male,1970,12:04:55 AM,Saturday
+120,12/31/2016 22:59:11,12/31/2016 23:19:34,5055,1223,67,Sheffield Ave & Fullerton Ave,290,Kedzie Ave & Palmer Ct,Customer,Female,1985,12:20:23 AM,Saturday
+121,12/31/2016 23:10:37,12/31/2016 23:14:48,3082,251,343,Racine Ave & Wrightwood Ave,67,Sheffield Ave & Fullerton Ave,Subscriber,Male,1985,12:04:11 AM,Saturday
+122,12/31/2016 23:12:34,12/31/2016 23:45:22,3423,1968,300,Broadway & Barry Ave,99,Lake Shore Dr & Ohio St,Subscriber,Male,1971,12:32:48 AM,Saturday
+123,12/31/2016 23:16:54,12/31/2016 23:31:01,5576,847,346,Ada St & Washington Blvd,130,Damen Ave & Division St,Customer,Male,1986,12:14:07 AM,Saturday
+124,12/31/2016 23:17:08,12/31/2016 23:20:31,5729,203,55,Halsted St & Roosevelt Rd,22,May St & Taylor St,Subscriber,Female,1991,12:03:23 AM,Saturday
+125,12/31/2016 23:21:11,12/31/2016 23:31:58,384,647,59,Wabash Ave & Roosevelt Rd,81,Daley Center Plaza,Subscriber,Male,1987,12:10:47 AM,Saturday
+126,12/31/2016 23:05:17,12/31/2016 23:09:43,4442,266,295,Broadway & Argyle St,325,Clark St & Winnemac Ave,Subscriber,Male,1986,12:04:26 AM,Saturday
+127,12/31/2016 23:21:26,12/31/2016 23:31:58,3645,632,59,Wabash Ave & Roosevelt Rd,81,Daley Center Plaza,Subscriber,Male,1987,12:10:32 AM,Saturday
+128,12/31/2016 23:27:50,12/31/2016 23:31:12,5694,202,88,May St & Randolph St,134,Peoria St & Jackson Blvd,Subscriber,Male,1991,12:03:22 AM,Saturday
+129,12/31/2016 23:28:18,12/31/2016 23:31:04,4255,166,267,Lake Park Ave & 47th St,413,Woodlawn Ave & Lake Park Ave,Subscriber,Male,1989,12:02:46 AM,Saturday
+130,12/31/2016 23:32:05,12/31/2016 23:48:00,1092,955,130,Damen Ave & Division St,502,California Ave & Altgeld St,Customer,Female,1992,12:15:55 AM,Saturday
+131,12/31/2016 23:35:19,12/31/2016 23:50:55,2783,936,239,Western Ave & Leland Ave,455,Maplewood Ave & Peterson Ave,Subscriber,Male,1988,12:15:36 AM,Saturday
+132,12/31/2016 23:35:42,12/31/2016 23:47:16,5643,694,175,Wells St & Polk St,47,State St & Kinzie St,Subscriber,Female,1985,12:11:34 AM,Saturday
+133,12/31/2016 23:36:20,12/31/2016 23:45:53,794,573,256,Broadway & Sheridan Rd,226,Racine Ave & Belmont Ave,Subscriber,Male,1986,12:09:33 AM,Saturday
+134,12/31/2016 23:37:47,12/31/2016 23:49:31,4664,704,256,Broadway & Sheridan Rd,349,Halsted St & Wrightwood Ave,Subscriber,Male,1954,12:11:44 AM,Saturday
+135,12/31/2016 23:43:11,01-01-2017 00:42,2748,3533,77,Clinton St & Madison St,77,Clinton St & Madison St,Customer,Male,1988,12:58:49 AM,Saturday
+136,12/31/2016 23:43:25,12/31/2016 23:53:59,4615,634,405,Wentworth Ave & 35th St,367,Racine Ave & 35th St,Subscriber,Male,1966,12:10:34 AM,Saturday
+137,12/31/2016 23:43:27,12/31/2016 23:54:37,3237,670,427,Cottage Grove Ave & 63rd St,418,Ellis Ave & 53rd St,Subscriber,Male,1983,12:11:10 AM,Saturday
+138,12/31/2016 23:43:27,01-01-2017 00:42,5253,3517,77,Clinton St & Madison St,77,Clinton St & Madison St,Customer,Male,1996,12:58:33 AM,Saturday
+139,12/31/2016 23:43:41,12/31/2016 23:53:18,658,577,15,Racine Ave & 18th St,42,Wabash Ave & Cermak Rd,Subscriber,Male,1982,12:09:37 AM,Saturday
+140,12/31/2016 23:44:54,12/31/2016 23:46:42,518,108,264,Stetson Ave & South Water St,52,Michigan Ave & Lake St,Subscriber,Male,1997,12:01:48 AM,Saturday
+141,12/31/2016 23:45:41,01-01-2017 00:13,1779,1656,195,Columbus Dr & Randolph St,195,Columbus Dr & Randolph St,Customer,Male,1983,12:27:19 AM,Saturday
+142,12/31/2016 23:47:03,01-01-2017 00:18,2865,1867,177,Theater on the Lake,140,Dearborn Pkwy & Delaware Pl,Customer,Male,1983,12:30:57 AM,Saturday
+143,12/31/2016 23:47:33,01-01-2017 00:18,48,1863,177,Theater on the Lake,140,Dearborn Pkwy & Delaware Pl,Customer,Male,1975,12:30:27 AM,Saturday
+144,12/31/2016 23:47:40,12/31/2016 23:50:39,5643,179,47,State St & Kinzie St,125,Rush St & Hubbard St,Subscriber,Male,1980,12:02:59 AM,Saturday
+145,12/31/2016 23:51:31,01-01-2017 00:07,4451,980,199,12/31/2016 20:08:01,35,Streeter Dr & Grand Ave,Subscriber,Male,1986,12:15:29 AM,Saturday
+146,12/31/2016 23:51:31,01-01-2017 00:07,504,970,199,Wabash Ave & Grand Ave,35,Streeter Dr & Grand Ave,Subscriber,Female,1990,12:15:29 AM,Saturday
+147,12/31/2016 23:53:07,01-01-2017 00:08,1026,931,195,Columbus Dr & Randolph St,25,Michigan Ave & Pearson St,Customer,Male,1977,12:14:53 AM,Saturday
+148,12/31/2016 23:53:18,01-01-2017 00:08,5114,895,195,Columbus Dr & Randolph St,25,Michigan Ave & Pearson St,Customer,Male,1980,12:14:42 AM,Saturday
+149,12/31/2016 23:57:52,01-01-2017 00:06,5076,532,502,California Ave & Altgeld St,258,Logan Blvd & Elston Ave,Customer,Female,1986,12:08:08 AM,Saturday
