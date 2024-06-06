@@ -1,0 +1,56 @@
+---
+title: "Matrix"
+output: html_document
+---
+## A matrix is actually a vector with an additional attribute (dim) which is itself a numeric vector with length 2, and defines the numbers of rows and columns of the matrix. A matrix can be created with the function matrix
+```{r setup, include=FALSE}
+matrix(data=5, nr=2, nc=2)
+```
+
+```{r}
+matrix(1:6, 2, 3)
+```
+Another way to create a matrix is to give the appropriate values to the
+dim attribute (which is initially NULL):
+
+```{r}
+x <- 1:15
+x
+dim(x)<- c(5, 3)
+x
+```
+Data frame. We have seen that a data frame is created implicitly by the
+function read.table; it is also possible to create a data frame with the
+function data.frame. The vectors so included in the data frame must
+be of the same length, or if one of the them is shorter, it is \recycled" a
+whole number of times:
+
+```{r}
+x <- 1:4; n <- 10; M <- c(10, 35); y <- 2:4
+data.frame(x, n)
+```
+```{r}
+data.frame(x, M)
+
+```
+
+## Time-series. The function ts creates an object of class "ts" from a vector (single time-series) or a matrix (multivariate time-series), and some options which characterize the series. The options, with the default values,are:
+
+## ts(data = NA, start = 1, end = numeric(0), frequency = 1,deltat = 1, ts.eps = getOption("ts.eps"), class, names)
+
+## example:
+```{r}
+ts(1:10, start = 1959)
+Start = 1959
+End = 1968
+Frequency = 1
+ts(1:47, frequency = 12, start = c(1959, 2))
+```
+
+```{r}
+ts(1:10, frequency = 4, start = c(1959, 2))
+```
+```{r}
+ts(matrix(rpois(36, 5), 12, 3), start=c(1961, 1), frequency=12)
+```
+
